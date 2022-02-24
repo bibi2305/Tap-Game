@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SplashActivity">
+
+    <ImageView
+        android:id="@+id/fundosplash"
+        android:layout_width="415dp"
+        android:layout_height="734dp"
+        android:src="@drawable/fundorosa"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <ImageView
+        android:id="@+id/btnplay"
+        android:layout_width="113dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="149dp"
+        android:layout_marginTop="522dp"
+        android:layout_marginEnd="149dp"
+        android:layout_marginBottom="89dp"
+        android:src="@drawable/btnplay"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/titulo"
+        android:layout_width="236dp"
+        android:layout_height="94dp"
+        android:layout_marginStart="87dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginEnd="88dp"
+        android:layout_marginBottom="517dp"
+        android:fontFamily="monospace"
+        android:text="Pegue o Gatinho"
+        android:textAlignment="center"
+        android:textColor="#953773"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
